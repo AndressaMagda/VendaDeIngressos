@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+
+html, body {
+	height: 100%;
+	background-image: url("../imagens/background7.jpg");
+}
+
+#tudo {
+	min-height: 100%;
+	position: relative;
+}
+
+* html #tudo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+}
+
+
+#menuData{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+#conteudo{
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+#login_img{
+	width: 31%;
+	float:inherit;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+.error{
+	color: #B84842;
+}
